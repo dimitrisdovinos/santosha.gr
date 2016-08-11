@@ -14,14 +14,17 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    margin-bottom: 100px;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  background-image: url("/images/tree.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -204,8 +207,16 @@ pre {
     }
 }
 
+.outer {
+  background: #FFF;
+  max-width: 960px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin: 0 auto;
+}
+
 .container {
-  max-width: 920px;
+  max-width: $content-width;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
