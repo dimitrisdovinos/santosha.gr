@@ -238,7 +238,30 @@ pre {
 }
 
 .site-footer {
+  overflow: hidden;
   h3 {
     margin: 0;
   }
+}
+
+.site-footer-main {
+  float: left;
+}
+
+.img-alliance {
+  max-width: 220px;
+  margin: 15px 0 30px 30px;
+  float: right;
+}
+
+.btn-fb {
+  background-color: #3B5999;
+  background-image: url("/images/square-facebook-512.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  padding: 10px 15px 10px 40px;
+  color: #FFF !important;
+  font-weight: bold;
+  border-radius: 5px;
 }
